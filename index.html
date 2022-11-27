@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HOTEL HUB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo1.png" type="image/png">
+</head>
+
+<body>
+
+
+
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span class="hotel">Hotel</span><span class="hub">hub</span>
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn" class="hotel">MENU <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class="head-bottom flex">
+            <video id="videoBG" autoplay loop muted plays-inline>
+                <source src="images/banner2.mp4" type="video/mp4">
+            </video>
+
+            <h2>COME AND STAY WITH US TO FEEL EVEN BETTER THAN AT HOME</h2>
+            <p>We want to be one of the top hotels in Marikina. We will never be the biggest and don't want to be. We
+                invite you to our calm and hidden piece of heaven so we can show you everything the rooms offer. <br>
+                Come and enjoy it with us. We look forward to welcoming you soon.
+            </p>
+            <button type="button" class="head-btn"><a href="#rooms">BOOK NOW</a></button>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- side navbar -->
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="navbar">
+            <li><a href="#header">home</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#rooms">rooms</a></li>
+            <li><a href="#customers">customers</a></li>
+        </ul>
+        <!-- <button class="btn sign-up">sign up</button>
+        <button class="btn log-in">log in</button> -->
+    </div>
+    <!-- end of side navbar -->
+
+    <!-- fullscreen modal -->
+    <div id="modal"></div>
+    <!-- end of fullscreen modal -->
+
+    <!-- body content  -->
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>services</h2>
+        </div>
+        <div class="services-container">
+
+            
+            <!-- single service -->
+             <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-cocktail"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Food Service/ Food Runner</h2>
+                    <p>Food and beverage service is a subset of the service-oriented hospitality industry. It might be a
+                        part of a more prominent hotel or tourism business. Members of the Hotelhub Services team are
+                        responsible for various responsibilities such as preparing for service.</p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Refreshment</h2>
+                    <p>The place is nestled amid a tropical garden. The Deluxe Rooms are spacious and classically
+                        decorated, with teakwood, marble, and Bagan brick accents. Each area has high ceilings, giving
+                        the space a sizeable open sense.</p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Housekeeping</h2>
+                    <p>Our highly trained and dedicated workforce will integrate with your company and adhere to your
+                        brand standards. We can also handle the planning, organization, and delivery of your hotel
+                        housekeeping service, freeing up your time and resources to focus on your core business.</p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Room Security</h2>
+                    <p>Hotelhub Security provides hotel security services to hotels of all sizes, assuring the
+                        protection of guests, workers, and hotel property. Many of the issues found in commercial,
+                        residential, and retail sectors are present in hotel security, necessitating a security program
+                        that can balance your security needs with those of customer service and reputation management.
+                    </p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+        </div>
+    </section>
+
+<!-- 
+    <div class="book">
+        <form class="book-form">
+            <div class="form-item">
+                <label for="checkin-date">Check In Date: </label>
+                <input type="date" id="chekin-date">
+            </div>
+            <div class="form-item">
+                <label for="checkout-date">Check Out Date: </label>
+                <input type="date" id="chekout-date">
+            </div>
+            <div class="form-item">
+                <label for="adult">Adults: </label>
+                <input type="number" min="1" value="1" id="adult">
+            </div>
+            <div class="form-item">
+                <label for="children">Children: </label>
+                <input type="number" min="1" value="1" id="children">
+            </div>
+            <div class="form-item">
+                <label for="rooms">Rooms: </label>
+                <input type="number" min="1" value="1" id="rooms">
+            </div>
+            <div class="form-item">
+                <input type="submit" class="btn" value="Book Now">
+            </div>
+        </form>
+    </div> -->
+
+    <section class="rooms sec-width" id="rooms">
+        <div class="title">
+            <h2>rooms</h2>
+        </div>
+        <div class="rooms-container">
+            <!-- single room -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/img1.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Lei Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Self check-in.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            1 double bed, 1 sofa bed
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            1 - 2 Pax.
+                        </li>
+                    </ul>
+                    <p>This room has both adult and kid amenities.
+                        It also has a pool, garden, and plentiful lounge spaces. The building has access to the STI College Marikina directly from the lobby. </p>
+                    <p>It has a fully furnished kitchenette with a dining area, a flat-screen TV, and a private bathroom with a bidet. There's also a microwave, fridge, & stovetop.</p>
+                    <p class="rate">
+                        <span>₱5,200.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/img2.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>JP Extravagance Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Self check-in.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            2 double bed, 2 sofa bed
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            2 - 4 Pax.
+                        </li>
+                    </ul>
+                    <p>Relax in your new, fully-furnished, cozy with little decorating, uncluttered, clean, and inviting two-bedroom flat with a balcony at AIR Residences, Marikina. A fantastic setting A terrific spot to stay for everyone, whether you're a business traveler, a seasoned or infrequent traveler, a couple in search of quality time, or a group of friends looking out at the gorgeous Marikina skyline and the soothing pool view.</p>
+                    <p>The rooms are conveniently located on the recently completed and elegant third floor of the building, an award-winning street e in Marikina Conception Market. So, whether you're here for business or pleasure, you'll have quick access to the commercial community and the best fast foods like Ate Fely's.</p>
+                    <p class="rate">
+                        <span>₱8,500.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/img3.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Dexter Indulgence Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Self check-in.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            2 double bed, 1 single bed, 2 sofa bed
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            2 - 5 Pax.
+                        </li>
+                    </ul>
+                    <p>This is a bright, colorful, and pleasant room with all the comforts, located conveniently to easily and quickly reach all of the city's most appealing sites.
+                        Your house is in the most excellent part of Marikina; just across the street is Barangay Concepcion Uno, which has dozens of restaurants and hundreds of shops.</p>
+                    <p>You'll discover a functional kitchen with a stove, a complete fridge, a microwave, a kettle, and cooking equipment to prepare whatever meal you choose.
+                        The spacious and cozy queen-size bed with top-quality linens and LOTS of pillows will help you get a good night's rest while admiring the same spectacular view.</p>
+                    <p class="rate">
+                        <span>₱10,900.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+        </div>
+    </section>
+
+
+    <section class="customers" id="customers">
+        <div class="sec-width">
+            <div class="title">
+                <h2>customers</h2>
+            </div>
+            <div class="customers-container">
+                <!-- single customer -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                    <h3>I Loved it</h3>
+                    <p>The property is so clean, and the staff is fantastic! They even remember my name. The fresh
+                        seafood was the best! These are excellent guides for a delightful stay with my patient.</p>
+                    <img src="images/cus1.jpeg" alt="customer image">
+                    <span>Doc Johnny, Taguig City</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                    <h3>Comfortable Living</h3>
+                    <p>Stayed in a room with my Pinoy fan. The staff was amiable and helpful. The food was
+                        delicious—very professional dive guide. I would always come back to this place.</p>
+                    <img src="images/cus2.jpg" alt="customer image">
+                    <span>Lexi More, Manila City</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <h3>Nice Place</h3>
+                    <p> I loved the attention of the owner, Nathaniel, and all the staff. Lovely view from the hotel to
+                        the sea. When I come to Marikina, the hotel will be my choice. The restaurant also has an
+                        extensive menu, and everything is delicious.</p>
+                    <img src="images/cus3.jpg" alt="customer image">
+                    <span>Eva E., Makati City</span>
+                </div>
+                <!-- end of single customer -->
+            </div>
+        </div>
+    </section>
+    <!-- end of body content -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h2>About Us </h2>
+                <p>We seek to be the first choice in the minds of guests, owners, and talent at Hotel Hub Group. We practice solid beliefs and activities that respect the diversity of individuals, the community, ethics, and the earth on our journey to achieve this.</p>
+                <ul class="social-icons">
+                    <li class="flex">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h2>Useful Links</h2>
+                <a href="#">Blog</a>
+                <a href="#">Rooms</a>
+                <a href="#">Subscription</a>
+                <a href="#">Gift Card</a>
+            </div>
+            
+            <div>
+                <h2>Privacy</h2>
+                <a href="#">Career</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Services</a>
+            </div>
+            
+            <div>
+                <h2>Have A Question</h2>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        299 L. de Guzman Street, Concepcion I, Marikina City, 1807 Metro Manila
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +63921-363-3785
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        abc_123@gmail.com
+                    </span>
+                </div>
+                <span class="copy">Alexander Oro |  2022 All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
